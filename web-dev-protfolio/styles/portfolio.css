@@ -61,6 +61,12 @@
 
 }
 
+/* this is being used to make center text with all the section with this class */
+.text-center{
+    text-align: center;
+
+}
+
 
 
 
@@ -144,6 +150,11 @@ main{
 
 }
 
+main section{
+    margin-top: 130px;
+    margin-bottom: 130px;
+}
+
 
 /* about section style */
 
@@ -151,7 +162,7 @@ main{
     border-radius: 10px;
     padding: 130px 150px;
     text-align: center;
-    margin-top: 130px;
+    
 }
 
 
@@ -162,4 +173,18 @@ main{
 
 .item-description{
     font-weight: 650;
+}
+
+/* skills-container style */
+
+.skills-container{
+    display: flex;
+    gap:24px
+
+}
+
+.skill{
+    padding: 25px;
+    box-shadow: 0px 6px 50px 0px rgba(167, 164, 164, 0.397);
+    margin-bottom: 10px;
 }
