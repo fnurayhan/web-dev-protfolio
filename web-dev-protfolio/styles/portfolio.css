@@ -1,0 +1,165 @@
+
+
+.open-sans-normal {
+  font-family: "Open Sans", sans-serif;
+  font-optical-sizing: auto;
+  
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+}
+
+
+/* shared style */
+
+.text-primary{
+    color : #FD6E0A
+}
+
+/* i am making a color code that i can use in multiple loaction */
+.dark-2{
+    color: #474747;
+}
+
+
+.btn-primary{
+    background-color: tomato;
+    font-size: 20px;
+    font-weight: bold;
+    color: white;
+    padding: 10px 25px;
+    border-radius: 5px;
+    border: none;
+}
+
+
+
+
+
+/* this section will be used in multiple place as bold with font size 45  */
+
+
+
+.bd-color{
+    background-color: rgba(250, 235, 215, 0.281);
+}
+
+
+.section-title{
+
+     font-size: 45;
+     font-weight: bold;
+     color: #181818;
+
+}
+
+/* this one will be to style any description in the website */
+
+.section-description{
+    font-size: 18px;
+    color: #757575;
+
+}
+
+
+
+
+
+/* header */
+
+.header{
+    background-image: url(../../images/developer.png), url(../../images/header_bg.png) ;
+    background-repeat: no-repeat;
+    background-position: top left, bottom right;
+    
+
+    
+}
+
+/* nav styles*/
+
+
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin:  20px 200px;
+}
+
+
+.nav-title{
+    font-weight:bolder ;
+    font-size: 45px;
+}
+
+nav>ul>li{
+   list-style: none;
+   margin-right: 50px ; 
+} 
+
+nav li a{
+    text-decoration: none;
+    font-size: 20px;
+    
+}
+
+nav ul{
+    display: flex;
+    
+}
+
+/* banner style */
+
+
+.banner{
+    display: flex;
+    justify-content: space-between;
+    margin: 100px;
+}
+
+
+.banner-content{
+    max-width: 780px;
+}
+
+.banner-greating{
+    font-size: 45px;
+    font-family: 600;
+}
+
+.banner-tittle{
+    font-weight: bold;
+    font-size: 65px;
+}
+
+.banner-profile-picture{
+    width: 480px;
+    
+}
+/* main style */
+
+main{
+    max-width: 1140px;
+    margin: 0 auto;
+
+}
+
+
+/* about section style */
+
+.about{
+    border-radius: 10px;
+    padding: 130px 150px;
+    text-align: center;
+    margin-top: 130px;
+}
+
+
+.about-items{
+    display: flex;
+    justify-content: space-around;
+}
+
+.item-description{
+    font-weight: 650;
+}
